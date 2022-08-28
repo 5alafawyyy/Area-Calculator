@@ -1,4 +1,4 @@
-import 'package:area_calculator/screens/home_screen.dart';
+import 'package:area_calculator/screens/container_layouts_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // primaryColor: const Color(0xff009688),
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          brightness: Brightness.dark,
-          onPrimary: const Color(0xff009688),
-          onSecondary: const Color(0xff7C4DFF),
+          // brightness: Brightness.dark,
+          primary: const Color(0xff00796B),
+          secondary: const Color(0xff757575),
         ),
       ),
-      home: const HomeScreen(),
+      home: const ContainerLayoutsScreen(),
     );
   }
 }
