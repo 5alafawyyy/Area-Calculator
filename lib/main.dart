@@ -1,4 +1,4 @@
-import 'package:area_calculator/screens/container_layouts_screen.dart';
+import 'package:area_calculator/screens/area_caculator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,14 +14,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Area Calculator',
       theme: ThemeData(
-        // primaryColor: const Color(0xff009688),
+        primaryColor: const Color(0xff009688),
         colorScheme: ColorScheme.fromSwatch().copyWith(
           // brightness: Brightness.dark,
           primary: const Color(0xff00796B),
           secondary: const Color(0xff757575),
         ),
       ),
-      home: const ContainerLayoutsScreen(),
+      home: const AreaCalculatorScreen(),
     );
   }
 }

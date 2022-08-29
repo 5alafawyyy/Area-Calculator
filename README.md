@@ -1,16 +1,39 @@
-# area_calculator
+# Area Calculator Application
 
-A new Flutter project.
+A new Flutter project. it consists of Area Calculator Screen.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Covered:
+# Container
+    - Size
+    - Position
+  * BoxConstraints
+  * BoxDecoration
+  * Color
+  * Gradients
+    - LinearGradient
+    - RadialGradient
+  * DecorationImage
+      - BoxFit
 
-A few resources to get you started if this is your first Flutter project:
+# Drawing Custom Shapes
+  * Canvas
+  * Paint
+  * Path, Rect
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Main purposes of this project:
+* How to employ the container to achieve what I want.
+
+
+#### Project Pages:
+- Area Calculator Screen
+
+
+## ScreenShots
+<p float="left">
+  <img src="screenshots/area_calculator.jpg" width="32%" />
+  <img src="screenshots/area_calculator_triangle.jpg" width="32%" /> 
+  <img src="screenshots/area_calculator_rectangle.jpg" width="32%" /> 
+</p>
